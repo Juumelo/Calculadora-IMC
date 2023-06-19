@@ -38,7 +38,7 @@ function App() {
             <input type="checkbox"></input>
           </div>
         </div>
-        <div>
+        <div className="busca">
           <input type="search"></input>
           <input type="search"></input>
 

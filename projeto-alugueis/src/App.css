@@ -71,3 +71,6 @@ hr {
   display: grid;
   grid-template-columns: repeat(3, 250px) ;
 }
+.busca{
+  padding-right: 90px;
+}
