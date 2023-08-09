@@ -33,14 +33,14 @@
         </div>
 
         <h1>Calcule seu IMC</h1>
-        <form action="/" id="formulario" method="POST">
+        <div class="form">
             <label for="input-peso">Peso:</label>
             <input type="text" id="input-peso">
             <label for="input-peso">Altura:</label>
             <input type="text" id="input-altura">
-            <button type="submit" >Enviar</button>
-        </form>
-        <div class="resultado_calculo"><p id="imprimir"></p>
+            <button onclick="imc()">Enviar</button>
+        </div>
+        <div><p class="resultado-calculo" id="imprimir"></p>
         </div>
 
     </section>

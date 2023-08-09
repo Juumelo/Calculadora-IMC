@@ -1,16 +1,9 @@
-const form = document.querySelector('#formulario');
-form.addEventListener('submit', function(e) {
-    e.preventDefault();
-    imc('foi');
-});
+function imc(){
 
-
-function imc(msg){
-
-    const resultado = document.querySelector('#resultado');
     let peso = Number(document.getElementById("input-peso").value);
     let altura = Number(document.getElementById("input-altura").value);
     let imc= peso/(altura*altura);
+    
 
 
     if (imc < 18.5) {
